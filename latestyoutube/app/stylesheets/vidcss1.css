@@ -1,0 +1,45 @@
+ul.videos li {
+	
+	margin:20px;
+	margin-top:40px;
+	float:left;
+	padding:10px;
+	height:120px;
+	width:100px;	
+	margin-bottom: 1em;
+	background-color:#66F;
+color: #001;
+
+
+border-style:solid;
+border-width:5px;
+border-color: red;
+
+}
+
+
+li{
+	list-style: none;
+	
+}
+
+#vcn{
+	margin-top:70px;
+	margin-left: 10px;
+	
+}
+
+ul.videos li :hover
+{
+	border-style : solid;
+	cursor: pointer;
+	border-style:solid;
+	border-color: red;
+}
+
+#playerContainer{
+	height: 100px;
+	width: 200px;
+	position: fixed;
+	
+}

@@ -1,0 +1,16 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Layout */
+body
+{
+	background-color:#0099FF;
+	width: 960px;
+	height: 540px;
+	font-size: 10px;
+  position:fixed;
+}
