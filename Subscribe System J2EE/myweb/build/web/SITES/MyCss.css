@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width :968px;
+	background :#36C;
+	margin :auto;
+	padding-left:10px;
+	padding-right:10px;	
+	overflow:hidden;
+	}
+	
+	
+	#left_text
+	{
+		width : 990px;
+		height: 300px;
+		margin-top: 20px;
+		margin-bottom:20px;
+		
+	}
+	#Left_Col, #Right_Col
+	{
+		width : 450px;
+		height: 300px;
+	float:left;	
+	}
+	#Left_Col
+	{
+	width: 650px;
+	height: 300px;	
+	}
+	#Right_Col
+	{
+		width: 318px;
+		height: 320px;
+	}
+	

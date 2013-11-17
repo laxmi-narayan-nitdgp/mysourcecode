@@ -1,0 +1,724 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fasion website layout - free css template</title>
+<meta name="keywords" content="fashion website layout, free css template" />
+<meta name="description" content="Fashion Template - free css template provided by templatemo.com" />
+<!--  Free CSS Template is designed by TemplateMo.com  -->
+
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333333; 
+	
+	
+}
+
+a:link, a:visited { color: #333333; text-decoration: none;} 
+a:active, a:hover {
+	/*color: #D6D6D6;*/
+	text-decoration: underline;
+	color: #030;
+}
+
+h1 {
+	margin: 0 0 5px 0;
+	padding: 10px 0 10px 10px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #FFF; 
+	
+	background: #0C3211; 
+	/*background:#0C3211; */
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 10px;
+	font-size: 26px;
+	font-style: normal;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #030; 
+	/*background: #0C3211;*/
+}
+
+
+h3 {
+	letter-spacing: 5px;
+	margin: 0;
+	padding: 3px 0 3px 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color:  #ffffff;
+	background: #0C3211;
+}
+
+h4 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+
+h5 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #195fff;
+}
+
+p{
+	margin: 0 0 15px 0;
+	font-size: 12px;
+	/*color: #FFFFFF;*/
+	
+}
+
+img {
+	border: none;
+	margin: 0;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+}
+
+#templatemo_container {
+	margin: auto;
+	width: 960px;
+	background-color: #F7F7F7; 
+	
+}
+
+/* top panel */
+#templatemo_top_panel {
+	width: 960px;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	background: #0C3211;
+	/*background: #063; OKAY*/ 
+	/*background: #003 url(images/templatemo_top_panel_background.jpg) no-repeat; */
+}
+
+#templatemo_header {
+	float: left;
+	display: inline;
+	margin: 40px 0 0 30px;
+}
+
+#templatemo_header #site_title{
+	padding: 10px 0 8px 0;
+	margin: 0;
+	color: #FFF;
+	font-size: 50px;
+	font-weight: bold;
+	background: none;
+}
+
+#templatemo_header #slogan{
+	padding-left: 3px;
+	margin: 0;
+	color: #CCC;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.templatemo_ad_468x60 {
+	float: right;
+	color: #FFFFFF;
+	margin: 40px 15px 0 0;
+	width: 468px;
+	height: 60px;
+}
+
+.templatemo_ad_468x60 img{
+	border: none;
+}
+/* end of top panel */
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	width: 960px;
+	height: 35px;
+	background: #000; 
+	/*background: #000; */
+	border-bottom: 1px solid #333;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 750px;
+	margin: 0;
+	padding: 10px 0 0 0 ;
+	list-style: none;
+}
+
+#templatemo_menu li {
+	float :left;
+}
+
+/*#templatemo_menu ul li{
+	display: inline;
+}*/
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 11px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	/*color: #FFFFFF; orignal */
+	color: #FFFFFF;
+	/*border-right: 1px solid #FFFFFF; orginal */
+	border-right: 1px solid #FFFFFF;
+}
+
+#templatemo_menu ul li .lastmenu{
+	border-right: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #099;
+/*	color: #b3d7fc; orignal */
+}
+
+#templatemo_menu form{
+	float: right;
+	width: 170px;
+	margin: 0;
+	padding: 5px 0 0 0;
+	text-align: left;	
+}
+
+#templatemo_menu form input{
+	width: 120px;
+/*	color: #FFFFFF; orignal */
+color: #FFFFFF;
+	background: #000;
+	height: 20px;
+	border: 1px solid #666;
+}
+
+#templatemo_menu form .button{
+	border: none;
+	background: none;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+	width: 40px;
+}
+/* ----------------- end of menu----------------*/
+
+
+	
+/* Dropdown Menus */		
+#templatemo_menu li ul {
+	position: absolute;
+	left: -999em;
+	padding: 25px 0 1px 0;
+	height: auto;
+	width: 55px;
+	/*width: 174px; orignal */
+	border-bottom: 0px solid #a9a9a9;
+	}
+
+#templatemo_menu li li {
+	width: 125px;
+	height: 25px;
+	padding:5px 0 0 0 ;
+	/* width: 172px; orignal; */
+	/*border-top: 1px solid #a9a9a9; */
+	border-top: 1px solid #333;
+	border-right: 0px solid #a9a9a9;
+	border-left: 0px solid #a9a9a9;
+	background: #121212;
+	color: #FFFFFF;
+	} 
+
+#templatemo_menu li li a, #templatemo_menu li li a:visited {
+	font-weight:normal;
+	font-size:0.9em;
+	color:#FFF;
+	}
+	
+	#templatemo_menu li li a:hover, #templatemo_menu li li a:active {
+	background:#000;
+	}	
+		
+#templatemo_menu li:hover ul, #templatemo_menuli li:hover ul, #templatemo_menu li li li:hover ul, #templatemo_menu li.sfhover ul, #templatemo_menu li li.sfhover ul, #templatemo_menu li li li.sfhover ul {
+	left: auto;
+	}
+
+a.main:hover
+{	background:none;
+	}*/
+/* ----------------- end of dropdownmenu----------------*/
+#templatemo_content {
+	width: 960px;
+	margin-bottom: 25px;
+	/*background-color: #FFF; */
+	
+}
+
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 640px;
+	padding: 0 10px 0 0;
+	border-right: 0px solid #CCCCCC;
+	font-size: 12px;
+}
+
+#templatemo_content #templatemo_content_right {
+	float: right;
+	width: 300px;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_01 {
+	clear: both;
+	width: 640px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.tempaltemo_content_left_section_01  .section_01_two_col {
+	float: left;
+	width: 300px;
+	margin: 0 20px 0 0;
+}
+
+.section_01_two_col .section_01_box {
+	clear: both;
+	width: 100%;
+	height: 159px;
+	padding: 15px 0 0 0;
+	border-bottom: 0px solid #CCCCCC;
+}
+.section_01_box .section_01_box_title{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.section_01_box img{
+	float: left;
+	margin: 3px 15px 0 0;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_02{
+	clear: both;
+	width: 640px;
+}
+
+.tempaltemo_content_left_section_02  .section_02_box {
+	float: left;
+	width: 298px;
+	border: 1px solid #CCCCCC;
+	margin: 0 20px 0 0px;
+}
+
+.section_02_box .section_02_box_content{
+	float: left;
+	padding: 15px;
+}
+
+.section_02_box_content .section_02_box_content_title {
+	font-weight: bold;
+}
+
+.section_02_box_content ul{
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.section_02_box_content ul li{
+	padding: 0 0 5px 15px;
+	margin: 0;	
+	background: url(images/templatemo_listicon.gif) top left no-repeat;
+}
+
+.section_02_box img {
+	float: left;
+	margin: 3px 15px 0 0;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_03 {
+	clear: both;
+	width: 640px;
+	background: #d2d6db;
+}
+
+.tempaltemo_content_left_section_03 .section_03_box {
+	float: left;
+	width: 140px;
+	margin: 0 10px;
+}
+
+#templatemo_content_right .content_right_section_01 {
+	width: 300px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 0px solid #CCCCCC;
+}
+
+.content_right_section_01 .blog_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.content_right_section_01 .blog_box h5 a{
+	color: #195fff;	
+}
+
+.content_right_section_01 .blog_box span{
+	color: #ff366f;
+}
+
+
+.content_right_section_01 .sister_links_box {
+	float: left;
+	width: 140px;
+	padding-right: 10px;
+}
+
+/* ---Right section recet post */
+ #templatemo_content_right .content_right_section_02 {
+	width: 300px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0px solid #F3C;
+}
+
+ #templatemo_content_right .content_right_section_03 {
+	width: 300px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0px solid #F3C;
+}
+/*
+.content_right_section_02 .blog_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.content_right_section_02 .blog_box h5 a{
+	color: #195fff;	
+}
+
+.content_right_section_02 .blog_box span{
+	color: #ff366f;
+} */
+
+
+/* ----- Footer ----- */
+#templatemo_footer {
+	clear: both;
+	padding: 10px 25px;
+	width: 910px;
+	text-align: center;
+	background: #DDD;
+	text-align: center;
+	font-size: 11px;
+	color: #666;
+}
+
+#templatemo_footer p{
+	margin-bottom: 10px;
+	padding: 0;
+	text-align: justify;
+}
+
+#templatemo_footer a{
+	font-weight: normal;
+}
+
+/* ----- End of Footer ----- */
+
+</style>
+</head>
+
+
+
+<!--<body bgcolor= "#FFF"> orignal -->
+<body>
+<div id="templatemo_container">
+  <div id="templatemo_top_panel">
+    <div id="templatemo_header">
+      <div id="site_title">ISLAM UNVEILED</div>
+      <div id="slogan">Read in the name of thy Lord who created you from sensitive drop of blood</div>
+    </div>
+  </div>
+  <!-- end of top panel -->
+  <div id="templatemo_menu">
+    <ul>
+      <li><a href="index.html" > Home</a></li>
+      <li><a href="Islam.html" >Islam </a>
+      <ul><li> <center>Introduction to Islam </center></li>
+               <li><center> Concept of God</center></li>
+               <li><center> Name to call God </center></li>
+              </ul></li>
+      <li><a href="Prophets.html" >Prophet</a> 
+      <ul><li> <center>Introduction to Islam </center></li>
+               <li><center> Concept of God</center></li>
+               <li><center> Name to call God </center></li>
+              </ul>
+                   </li>
+      <li><a href="Books.html" >Revealed Books </a>
+      <ul><li><center>Quran </center></li>
+               <li><center>Gospel </center></li>
+               <li><center>Torah</center></li>
+               <li><center>Psalms</center></li></ul>
+               </li>
+      <li><a href="women.html">Women in Islam</a></li>
+      <li><a href="Facts.html" class="current">Facts</a>
+       <ul><li> <center>Coffee </center></li>
+               <li><center>Milk </center></li>
+               <li><center>Sugar </center></li>
+               <li><center>Honey</center></li>
+               <li><center>Milk </center></li>
+               <li><center>Sugar </center></li>
+               <li><center>Honey</center></li> </ul>
+               </li>
+      
+      <li><a href="subpage.html">Articles</a></li>
+      <li><a href="subpage.html">Videos</a></li>
+      <li><a href="subpage.html">Forum</a></li>
+      <li><a href="#">Contact us </a></li>
+    </ul>
+    <form method="get" action="#">
+      <input name="search" value="Search..." type="text" />
+      <input class="button" type="submit" name="Search" value="GO" />
+    </form>
+  </div>
+  <!-- end of menu -->
+  <div id="templatemo_content">
+    <div class="tempaltemo_content_left_section_01">
+      <div id="templatemo_content_left">
+        <p>&nbsp;</p>
+       <a href="#"><img src="images/Oceanology.jpg" alt="templatemo"  width ="650" height="270"/></a><p>&nbsp;</p>
+        <center>
+        &nbsp;
+        <h4><center><b>OCEANOLOGY</b></center></h4>
+        <p>&nbsp;</p>
+        
+        <div class="tempaltemo_content_left_section_01">
+        <h2 style="font-size:24px; font-weight:400">BARRIER BETWEEN SWEET AND SALT WATERS</h2>
+        
+       
+<p><center>
+Consider the following Qur’aanic verses: <br/> <b>“He has let free the two bodies Of
+flowing water, Meeting together: Between them is a Barrier Which they
+do not transgress.” [Al-Qur’aan 55:19-20]</b>
+<p>&nbsp; </p>
+In the Arabic text the word barzakh means a barrier or a partition. This barrier
+is not a physical partition. The Arabic word maraja literally means ‘they both
+meet and mix with each other’. Early commentators of the Qur’aan were
+unable to explain the two opposite meanings for the two bodies of water, i.e.
+they meet and mix, and at the same time, there is a barrier between them.
+Modern Science has discovered that in the places where two different seas
+meet, there is a barrier between them. This barrier divides the two seas so that
+each sea has its own temperature, salinity and density. 7 Oceanologists are
+now in a better position to explain this verse. There is a slanted unseen water
+barrier between the two seas through which water from one sea passes to the
+other.<p>&nbsp; </p>
+But when the water from one sea enters the other sea, it loses its distinctive
+characteristic and becomes homogenized with the other water. In a way this
+barrier serves as a transitional homogenizing area for the two waters. This
+scientific phenomenon mentioned in the Qur’aan was also confirmed by Dr.
+William Hay who is a well-known marine scientist and Professor of
+Geological Sciences at the University of Colorado, U.S.A. The Qur’aan
+mentions this phenomenon also in the following verse:
+<br/> <b> “And made a
+separating bar between the two bodies Of flowing water?” [Al-Qur’aan
+27:61] </b> <p>&nbsp; </p>
+This phenomenon occurs in several places, including the divider between the
+Mediterranean and the Atlantic Ocean at Gibralter. But when the Qur’aan
+speaks about the divider between fresh and salt water, it mentions the
+existence of “a forbidding partition” with the barrier. <br/><b>“It is He Who has Let
+free the two bodies Of flowing water: One palatable and sweet, And the
+other salty and bitter; Yet has He Made a barrier between them, And a
+partition that is forbidden To be passed.” [Al-Qur’aan 25:53]</b>
+<p>&nbsp; </p>
+Modern science has discovered that in estuaries, where fresh (sweet) and saltwater
+meet, the situation is somewhat different from that found in places
+where two seas meet. It has been discovered that what distinguishes fresh
+water from salt water in estuaries is a “pycnocline zone with a marked density
+discontinuity separating the two layers.” 8 This partition (zone of separation)
+has salinity different from both the fresh water and the salt water. 9
+This phenomenon occurs in several places, including Egypt, where the river
+Nile flows into the Mediterranean Sea.
+</center></p>
+
+</div>
+          <p>&nbsp;</p>
+          
+          
+          <div class="tempaltemo_content_left_section_01">
+   <h2 style="font-size:24px; font-weight:400">DARKNESS IN THE DEPTHS OF THE OCEAN</h2>
+   <p><center>
+   Prof. Durga Rao is an expert in the field of Marine Geology and was a
+professor at King Abdul Aziz University in Jeddah. He was asked to
+comment on the following verse:<br/><b> “Or (the Unbelievers’ state) Is like the
+depths of darkness In a vast deep ocean, Overwhelmed with billow
+Topped by billow, Topped by (dark) clouds: Depths of darkness, one
+Above another: if a man Stretches out his hand, He can hardly see it! For
+any to whom Allah Giveth not light, there is no light!” [Al-Qur’aan 24:40] </b>
+<p>&nbsp;  </p>
+Prof. Rao said that scientists have only now been able to confirm, with the
+help of modern equipment that there is darkness in the depths of the ocean.
+Humans are unable to dive unaided underwater for more than 20 to 30 meters,
+and cannot survive in the deep oceanic regions at a depth of more than 200
+meters. This verse does not refer to all seas because not every sea can be 
+described as having accumulated darkness layered one over another. It refers
+especially to a deep sea or deep ocean, as the Qur’aan says, “darkness in a
+vast deep ocean”. This layered darkness in a deep ocean is the result of two
+causes:
+<p>&nbsp;  </p>
+<b>FIRST : </b>
+A light ray is composed of seven colours. These seven colours are Violet,
+Indigo, Blue, Green, Yellow, Orange and Red (VIBGYOR). The light ray
+undergoes refraction when it hits water. The upper 10 to 15 metres of
+water absorb the red colour. Therefore if a diver is 25 metres under water and
+gets wounded, he would not be able to see the red colour of his blood,
+because the red colour does not reach this depth. Similarly orange rays are
+absorbed at 30 to 50 metres, yellow at 50 to 100 metres, green at 100 to 200
+metres, and finally, blue beyond 200 metres and violet and indigo above 200
+metres. Due to successive disappearance of colour, one layer after another,
+the ocean progressively becomes darker, i.e. darkness takes place in layers of
+light. Below a depth of 1000 meters there is complete darkness. 10
+<p>&nbsp;  </p>
+<b>SECOND :</b> The sun’s rays are absorbed by clouds, which in turn scatter light rays
+thus causing a layer of darkness under the clouds. This is the first layer
+of darkness. When light rays reach the surface of the ocean they are
+reflected by the wave surface giving it a shiny appearance. Therefore it is the
+waves which reflect light and cause darkness. The unreflected light penetrates
+into the depths of the ocean. Therefore the ocean has two parts. The surface
+characterized by light and warmth and the depth characterized by darkness.
+The surface is further separated from the deep part of the ocean by waves.
+The internal waves cover the deep waters of seas and oceans because the deep
+waters have a higher density than the waters above them. The darkness begins
+below the internal waves. Even the fish in the depths of the ocean cannot see;
+their only source of light is from their own bodies.
+<p>&nbsp;  </p>
+The Qur’aan rightly mentions: <br/>
+<b>“Darkness in a vast deep ocean overwhelmed with waves topped by waves”.
+</b>
+<p>&nbsp; </p>
+In other words, above these waves there are more types of waves, i.e. those
+found on the surface of the ocean. The Qur’aanic verse continues, <br/><b> “topped by
+(dark) clouds; depths of darkness, one above another.” </b>
+These clouds as explained are barriers one over the other that further cause
+darkness by absorption of colours at different levels.
+<p>&nbsp; </p>
+Prof. Durga Rao concluded by saying, “1400 years ago a normal human being
+could not explain this phenomenon in so much detail. Thus the information
+must have come from a supernatural
+source”.</center></p>
+</div>
+      </div>
+    </div>
+    <div id="templatemo_content_right">
+      <div class="content_right_section_01">
+        <!--<center>advertisement</center> -->
+        <p>&nbsp;</p>
+        <a href="http://www.flashmo.com" target="_parent"><img src="images/wall.jpg" alt="free flash website" width="268" 
+
+height="201" /></a> </div>
+    
+    
+    <!-- Recenet Post -->
+   <div class="content_right_section_02">
+        <!--<center>advertisement</center> -->
+       <p>&nbsp;</p>
+        <h3><center> Weekly Hadith </center></h3>
+        <p>&nbsp;</p>
+        <p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+<p>&nbsp;</p>
+<p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+    </div> 
+    
+     <div class="content_right_section_03">
+        <!--<center>advertisement</center> -->
+        <p>&nbsp;</p>
+        <h3><center> Quran and Science </center></h3>
+        <p>&nbsp;</p>
+        <p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+<p>&nbsp; </p>
+<p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+    </div>
+     </div>
+    
+    <div class="cleaner_with_height">&nbsp;</div>
+    <div class="tempaltemo_content_left_section_03">
+      <h1><center>ISLAMIC LECTURE</center></h1>
+      <div class="section_03_box">
+        <h4>
+        Tawheed <a href="#"><img src="images/Tawheed.jpg" alt="templatemo" width="80" height="100" /></a>
+        <p> <a href="#">There is no God but ALLAH</a> </p>
+      </div>
+      <div class="section_03_box">
+        <h4>Purification</h4>
+        <a href="#"><img src="images/Pure.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#"> Wudu and Ghusul</a> </p>
+      </div>
+      <div class="section_03_box">
+        <h4>Tafseer</h4>
+        <a href="#"><img src="images/Khalid.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#">TEXT WILL BE HERE </a></p>
+      </div>
+      <div class="section_03_box">
+        <h4>Prayer</h4>
+        <a href="#"><img src="images/yusuf.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#">Pray as you have seen me pray </a></p>
+      </div>
+    
+    </div>
+    <!-- end of content left -->
+ 
+    <div class="cleaner">&nbsp;</div>
+  </div>
+  <!-- end of content -->
+  <div id="templatemo_footer"> <a href="#">Home</a> | <a href="#">Events</a> | <a href="#">Gallery</a> | <a href="#">Bars</a> | <a href="#">Company</a> | <a 
+
+href="#">Contact</a><br />
+    Copyright � 2012 <a href="#"><strong>ISLAM UNVIELED</strong></a> | <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent">Free Web Template</a> <br />
+    <br />
+    <p>Lorem ipsum nunc quis sem dolor sit amet, consectetuer adipiscing elit. Nunc quis sem nec tellus blandit tincidunt. Duis 
+      
+      mollis aliquet ligula. Maecenas adipiscing elementum vitae velit sed dui malesuada dignissim. Donec mollis aliquet ligula. Maecenas 
+      
+      adipiscing elementum ipsum. </p>
+  </div>
+  <!-- end of footer -->
+<!--  Designed by w w w . t e m p l a t e m o . c o m  --></div>
+<!-- end of container -->
+
+</body>
+</html>

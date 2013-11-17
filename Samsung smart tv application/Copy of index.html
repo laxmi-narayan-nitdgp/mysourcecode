@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>finalapp</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+<script language="javascript" type="text/javascript" src="app/javascript/jq.js"></script>
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+
+		<!-- TODO: Plugins -->
+
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+
+<div style="height: 40px;width: 960px;">
+ <center>
+  <input type="button"  value="quater screen" id="b2" style="float:left;" onclick="quat(atval)" class="a_demo_two" />
+<input type="button"  value="half screen" id="b2" style="float:left;" onclick="halff(atval)" class="a_demo_two" />
+ <input type="button"  value="Full screen" id="b3" style="float:left;" onclick="fuul(atval)" class="a_demo_two" />
+</center>
+
+</div>
+
+<div id="1st">
+
+<div id="screen1" style="position:absolute; top:40px; left:0px; width:480px; height:250px; background-color:#ff6820;" class="xn">
+
+</div>
+<div id="screen2" style="position:absolute; top:40px; left:480px; width:480px; height:250px; background-color:yellow;" class="xn">
+
+</div>
+
+</div>
+<div id="2nd">
+
+<div id="screen3" style="position:absolute; top:290px; left:0px; width:480px; height:250px; background-color:#0000ff" class="xn">
+
+</div>
+<div id="screen4" style="position:absolute; top:290px; left:480px; width:480px; height:250px; background-color:#009300;" class="xn">
+
+</div>
+
+</div>
+
+
+<script>
+var atval="screen1";
+$(document).ready(function(e) {	
+$('.xn').click(function(){	
+atval = $(this).attr('id');
+$(this).animate({marginLeft:'+20px'},1000);
+$(this).animate({marginLeft:'-20px'},1000);
+$(this).animate({marginLeft:'0px'},1000);
+		})
+   });
+
+function halff(atval){
+	
+	if(atval.valueOf()=="screen1"){
+		alert("hello screen1");
+		
+		$('#screen1').css({'height':'250px','width':'960px'});
+				$('#screen2').css({'display':'none'},1000);				
+				$('#2nd').css({'display':'block'});
+		}
+		
+if(atval.valueOf()=="screen2"){	
+$('#screen2').css({'height':'250px','width':'960px','top':'40px','left':'0px'},3000);
+
+				$('#screen1').css({'display':'none'},1000);							
+						$('#2nd').css({'display':'block'});
+			}
+			
+			
+	if(atval.valueOf()=="screen3"){
+		
+		$('#screen3').css({'height':'250px','width':'960px','top':'290px','left':'0px'},3000);
+				$('#screen4').css({'display':'none'},1000);				
+				$('#1st').css({'display':'block'});
+		}
+		
+	if(atval.valueOf()=="screen4"){ 
+		$('#screen4').css({'height':'250px','width':'960px','top':'290px','left':'0px'},1000);
+				$('#screen3').css({'display':'none'},1000);				
+				$('#1st').css({'display':'block'});
+		}
+		
+		
+	}
+
+
+
+
+
+
+
+function fuul(atval){
+	
+	if(atval.valueOf()=="screen1"){
+		alert("hello screen1");
+		$('#screen1').css({'height':'500px','width':'960px','top':'40px','left':'0px'},1000);
+				$('#screen2').css({'display':'none'},1000);				
+				$('#2nd').css({'display':'none'});
+                		}		
+if(atval.valueOf()=="screen2"){	
+	$('#screen2').css({'height':'500px','width':'960px','top':'40px','left':'0px'},1000);
+				$('#screen1').css({'display':'none'},1000);							
+						$('#2nd').css({'display':'none'});
+			}
+	if(atval.valueOf()=="screen3"){		
+		$('#screen3').css({'height':'500px','width':'960px','top':'40px','left':'0px'},1000);
+				$('#screen4').css({'display':'none'},1000);				
+				$('#1st').css({'display':'none'});
+		}		
+	if(atval.valueOf()=="screen4"){ 
+		$('#screen4').css({'height':'500px','width':'960px','top':'40px','left':'0px'},1000);
+				$('#screen3').css({'display':'none'},1000);				
+				$('#1st').css({'display':'none'});
+                		}
+                        	}
+
+
+
+
+
+function quat(atval){
+	alert('inside quater');
+	if(atval.valueOf()=="screen1"){
+		alert("hello screen1");
+		$('#screen1').css({'height':'250px','width':'480px','top':'40px','left':'0px;'},1000);
+	   $('#screen2').css({'height':'250px','width':'480px','top':'40px','left':'480px'},1000);
+		$('#screen2').css({'display':'block'});
+				$('#2nd').css({'display':'block'});
+                		}		
+if(atval.valueOf()=="screen2"){	
+	
+	$('#screen1').css({'height':'250px','width':'480px','top':'40px','left':'0px;'},1000);
+	$('#screen2').css({'height':'250px','width':'480px','top':'40px','left':'480px'},1000);
+	$('#screen1').css({'display':'block'});
+	
+				$('#2nd').css({'display':'block'});
+			}
+	if(atval.valueOf()=="screen3"){		
+		$('#screen3').css({'height':'250px','width':'480px','top':'290px','left':'0px;'},1000);
+		$('#screen4').css({'height':'250px','width':'480px','top':'290px','left':'480px'},1000);
+		$('#screen4').css({'display':'block'});
+				
+				$('#1st').css({'display':'block'});
+		}		
+	if(atval.valueOf()=="screen4"){ 		
+		$('#screen3').css({'height':'250px','width':'480px','top':'290px','left':'0px;'},1000);
+		$('#screen4').css({'height':'250px','width':'480px','top':'290px','left':'480px'},1000);
+		$('#screen3').css({'display':'block'});
+				$('#1st').css({'display':'block'});
+                		}
+                        	}
+
+
+
+
+
+</script>
+
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+
+
+	</body>
+</html>

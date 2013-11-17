@@ -1,0 +1,676 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fasion website layout - free css template</title>
+<meta name="keywords" content="fashion website layout, free css template" />
+<meta name="description" content="Fashion Template - free css template provided by templatemo.com" />
+<!--  Free CSS Template is designed by TemplateMo.com  -->
+
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333333; 
+	
+	
+}
+
+a:link, a:visited { color: #333333; text-decoration: none;} 
+a:active, a:hover {
+	/*color: #D6D6D6;*/
+	text-decoration: underline;
+	color: #030;
+}
+
+h1 {
+	margin: 0 0 5px 0;
+	padding: 10px 0 10px 10px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #FFF; 
+	
+	background: #0C3211; 
+	/*background:#0C3211; */
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 10px;
+	font-size: 26px;
+	font-style: normal;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #030; 
+	/*background: #0C3211;*/
+}
+
+
+h3 {
+	letter-spacing: 5px;
+	margin: 0;
+	padding: 3px 0 3px 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color:  #ffffff;
+	background: #0C3211;
+}
+
+h4 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+
+h5 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #195fff;
+}
+
+p{
+	margin: 0 0 15px 0;
+	font-size: 12px;
+	/*color: #FFFFFF;*/
+	
+}
+
+img {
+	border: none;
+	margin: 0;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+}
+
+#templatemo_container {
+	margin: auto;
+	width: 960px;
+	background-color: #F7F7F7; 
+	
+}
+
+/* top panel */
+#templatemo_top_panel {
+	width: 960px;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	background: #0C3211;
+	/*background: #063; OKAY*/ 
+	/*background: #003 url(images/templatemo_top_panel_background.jpg) no-repeat; */
+}
+
+#templatemo_header {
+	float: left;
+	display: inline;
+	margin: 40px 0 0 30px;
+}
+
+#templatemo_header #site_title{
+	padding: 10px 0 8px 0;
+	margin: 0;
+	color: #FFF;
+	font-size: 50px;
+	font-weight: bold;
+	background: none;
+}
+
+#templatemo_header #slogan{
+	padding-left: 3px;
+	margin: 0;
+	color: #CCC;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.templatemo_ad_468x60 {
+	float: right;
+	color: #FFFFFF;
+	margin: 40px 15px 0 0;
+	width: 468px;
+	height: 60px;
+}
+
+.templatemo_ad_468x60 img{
+	border: none;
+}
+/* end of top panel */
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	width: 960px;
+	height: 35px;
+	background: #000; 
+	/*background: #000; */
+	border-bottom: 1px solid #333;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 750px;
+	margin: 0;
+	padding: 10px 0 0 0 ;
+	list-style: none;
+}
+
+#templatemo_menu li {
+	float :left;
+}
+
+/*#templatemo_menu ul li{
+	display: inline;
+}*/
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 11px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	/*color: #FFFFFF; orignal */
+	color: #FFFFFF;
+	/*border-right: 1px solid #FFFFFF; orginal */
+	border-right: 1px solid #FFFFFF;
+}
+
+#templatemo_menu ul li .lastmenu{
+	border-right: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #099;
+/*	color: #b3d7fc; orignal */
+}
+
+#templatemo_menu form{
+	float: right;
+	width: 170px;
+	margin: 0;
+	padding: 5px 0 0 0;
+	text-align: left;	
+}
+
+#templatemo_menu form input{
+	width: 120px;
+/*	color: #FFFFFF; orignal */
+color: #FFFFFF;
+	background: #000;
+	height: 20px;
+	border: 1px solid #666;
+}
+
+#templatemo_menu form .button{
+	border: none;
+	background: none;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+	width: 40px;
+}
+/* ----------------- end of menu----------------*/
+
+
+	
+/* Dropdown Menus */		
+#templatemo_menu li ul {
+	position: absolute;
+	left: -999em;
+	padding: 25px 0 1px 0;
+	height: auto;
+	width: 55px;
+	/*width: 174px; orignal */
+	border-bottom: 0px solid #a9a9a9;
+	}
+
+#templatemo_menu li li {
+	width: 125px;
+	height: 25px;
+	padding:5px 0 0 0 ;
+	/* width: 172px; orignal; */
+	/*border-top: 1px solid #a9a9a9; */
+	border-top: 1px solid #333;
+	border-right: 0px solid #a9a9a9;
+	border-left: 0px solid #a9a9a9;
+	background: #121212;
+	color: #FFFFFF;
+	} 
+
+#templatemo_menu li li a, #templatemo_menu li li a:visited {
+	font-weight:normal;
+	font-size:0.9em;
+	color:#FFF;
+	}
+	
+	#templatemo_menu li li a:hover, #templatemo_menu li li a:active {
+	background:#000;
+	}	
+		
+#templatemo_menu li:hover ul, #templatemo_menuli li:hover ul, #templatemo_menu li li li:hover ul, #templatemo_menu li.sfhover ul, #templatemo_menu li li.sfhover ul, #templatemo_menu li li li.sfhover ul {
+	left: auto;
+	}
+
+a.main:hover
+{	background:none;
+	}*/
+/* ----------------- end of dropdownmenu----------------*/
+#templatemo_content {
+	width: 960px;
+	margin-bottom: 25px;
+	/*background-color: #FFF; */
+	
+}
+
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 640px;
+	padding: 0 10px 0 0;
+	border-right: 0px solid #CCCCCC;
+	font-size: 12px;
+}
+
+#templatemo_content #templatemo_content_right {
+	float: right;
+	width: 300px;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_01 {
+	clear: both;
+	width: 640px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.tempaltemo_content_left_section_01  .section_01_two_col {
+	float: left;
+	width: 300px;
+	margin: 0 20px 0 0;
+}
+
+.section_01_two_col .section_01_box {
+	clear: both;
+	width: 100%;
+	height: 159px;
+	padding: 15px 0 0 0;
+	border-bottom: 0px solid #CCCCCC;
+}
+.section_01_box .section_01_box_title{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.section_01_box img{
+	float: left;
+	margin: 3px 15px 0 0;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_02{
+	clear: both;
+	width: 640px;
+}
+
+.tempaltemo_content_left_section_02  .section_02_box {
+	float: left;
+	width: 298px;
+	border: 1px solid #CCCCCC;
+	margin: 0 20px 0 0px;
+}
+
+.section_02_box .section_02_box_content{
+	float: left;
+	padding: 15px;
+}
+
+.section_02_box_content .section_02_box_content_title {
+	font-weight: bold;
+}
+
+.section_02_box_content ul{
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.section_02_box_content ul li{
+	padding: 0 0 5px 15px;
+	margin: 0;	
+	background: url(images/templatemo_listicon.gif) top left no-repeat;
+}
+
+.section_02_box img {
+	float: left;
+	margin: 3px 15px 0 0;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_03 {
+	clear: both;
+	width: 640px;
+	background: #d2d6db;
+}
+
+.tempaltemo_content_left_section_03 .section_03_box {
+	float: left;
+	width: 140px;
+	margin: 0 10px;
+}
+
+#templatemo_content_right .content_right_section_01 {
+	width: 300px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 0px solid #CCCCCC;
+}
+
+.content_right_section_01 .blog_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.content_right_section_01 .blog_box h5 a{
+	color: #195fff;	
+}
+
+.content_right_section_01 .blog_box span{
+	color: #ff366f;
+}
+
+
+.content_right_section_01 .sister_links_box {
+	float: left;
+	width: 140px;
+	padding-right: 10px;
+}
+
+/* ---Right section recet post */
+ #templatemo_content_right .content_right_section_02 {
+	width: 300px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0px solid #F3C;
+}
+
+ #templatemo_content_right .content_right_section_03 {
+	width: 300px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0px solid #F3C;
+}
+/*
+.content_right_section_02 .blog_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.content_right_section_02 .blog_box h5 a{
+	color: #195fff;	
+}
+
+.content_right_section_02 .blog_box span{
+	color: #ff366f;
+} */
+
+
+/* ----- Footer ----- */
+#templatemo_footer {
+	clear: both;
+	padding: 10px 25px;
+	width: 910px;
+	text-align: center;
+	background: #DDD;
+	text-align: center;
+	font-size: 11px;
+	color: #666;
+}
+
+#templatemo_footer p{
+	margin-bottom: 10px;
+	padding: 0;
+	text-align: justify;
+}
+
+#templatemo_footer a{
+	font-weight: normal;
+}
+
+/* ----- End of Footer ----- */
+
+</style>
+</head>
+
+
+
+<!--<body bgcolor= "#FFF"> orignal -->
+<body>
+<div id="templatemo_container">
+  <div id="templatemo_top_panel">
+    <div id="templatemo_header">
+      <div id="site_title">ISLAM UNVEILED</div>
+      <div id="slogan">Read in the name of thy Lord who created you from sensitive drop of blood</div>
+    </div>
+  </div>
+  <!-- end of top panel -->
+  <div id="templatemo_menu">
+    <ul>
+      <li><a href="index.html" > Home</a></li>
+      <li><a href="Islam.html" >Islam </a>
+      <ul><li> <center>Introduction to Islam </center></li>
+               <li><center> Concept of God</center></li>
+               <li><center> Name to call God </center></li>
+              </ul></li>
+      <li><a href="Prophets.html" >Prophet</a> 
+      <ul><li> <center>Introduction to Islam </center></li>
+               <li><center> Concept of God</center></li>
+               <li><center> Name to call God </center></li>
+              </ul>
+                   </li>
+      <li><a href="Books.html" >Revealed Books </a>
+      <ul><li><center>Quran </center></li>
+               <li><center>Gospel </center></li>
+               <li><center>Torah</center></li>
+               <li><center>Psalms</center></li></ul>
+               </li>
+      <li><a href="women.html">Women in Islam</a></li>
+      <li><a href="Facts.html" class="current">Facts</a>
+       <ul><li> <center>Coffee </center></li>
+               <li><center>Milk </center></li>
+               <li><center>Sugar </center></li>
+               <li><center>Honey</center></li>
+               <li><center>Milk </center></li>
+               <li><center>Sugar </center></li>
+               <li><center>Honey</center></li> </ul>
+               </li>
+      
+      <li><a href="subpage.html">Articles</a></li>
+      <li><a href="subpage.html">Videos</a></li>
+      <li><a href="subpage.html">Forum</a></li>
+      <li><a href="#">Contact us </a></li>
+    </ul>
+    <form method="get" action="#">
+      <input name="search" value="Search..." type="text" />
+      <input class="button" type="submit" name="Search" value="GO" />
+    </form>
+  </div>
+  <!-- end of menu -->
+  <div id="templatemo_content">
+    <div class="tempaltemo_content_left_section_01">
+      <div id="templatemo_content_left">
+        <p>&nbsp;</p>
+        <a href="#"><center><img src="images/geography.jpg" alt="templatemo"  width ="400" height="300"/></center></a><p>&nbsp;</p>
+       
+        <center>
+        &nbsp;
+        <h4><center><b>GEOGRAPHY</b></center></h4>
+        <p>&nbsp;</p>
+        <div class="tempaltemo_content_left_section_01">
+          <h2 style="font-size:24px; font-weight:400">THE WATER CYCLE </h2>    
+       
+<p><center>In 1580, Bernard Palissy was the first man to describe the present day concept
+of ‘water cycle’. He described how water evaporates from the oceans and
+cools to form clouds. The clouds move inland where they rise, condense and
+fall as rain. This water gathers as lakes and streams and flows back to the
+ocean in a continuous cycle. In the 7th century B.C., Thales of Miletus
+believed that surface spray of the oceans was picked up by the wind and
+carried inland to fall as rain. In earlier times people did not know the source
+of underground water. They thought the water of the oceans, under the effect
+of winds, was thrust towards the interior of the continents. They also believed
+that the water returned by a secret passage, or the Great Abyss. This passage
+is connected to the oceans and has been called the ‘Tartarus’, since Plato’s
+time. Even Descartes, a great thinker of the eighteenth century, subscribed to
+this view. Till the nineteenth century, Aristotle’s theory was prevalent.
+According to this theory, water was condensed in cool mountain caverns and
+formed underground lakes that fed springs. Today, we know that the
+rainwater that seeps into the cracks of the ground is responsible for this.
+The water cycle is described by the Qur’aan in the following verses:
+<p>&nbsp;  </p>
+<b> “Seest
+thou not that Allah Sends down rain from The sky, and leads it Through
+springs in the earth? Then He causes to grow, Therewith, produce of
+various Colours.” [Al-Qur’aan 39:21]
+<p>&nbsp;  </p>
+“He sends down rain From the sky And with it gives life to The earth
+after it is dead: Verily in that are Signs For those who are wise.” [Al-
+Qur’aan 30:24]
+<p>&nbsp;  </p>
+“And We send down water From the sky according to (Due) measure,
+and We cause it To soak in the soil; And We certainly are able To drain
+it off (with ease).” [Al-Qur’aan 23:18] 
+<p>&nbsp;</p>
+No other text dating back 1400 years ago gives such an accurate description
+of the water cycle.
+</b></center></p>
+</div>
+          <p>&nbsp;</p>
+            <div class="tempaltemo_content_left_section_01">
+          <h2 style="font-size:24px; font-weight:400">WINDS IMPREGNATE THE CLOUDS </h2
+          
+   ><p><center><b>
+   “And We send the fecundating winds, Then cause the rain to descend
+From the sky, therewith providing You with water (in abundance).” [Al-
+Qur’aan 15:22] </b>
+ <p>&nbsp;</p>
+The Arabic word used here is lawâqih, which is the plural of laqih from
+laqaha, which means to impregnate or fecundate. In this context, impregnate
+means that the wind pushes the clouds together increasing the condensation
+that causes lightning and thus rain. A similar description is found in the
+Qur’aan:
+ <p>&nbsp;</p><b> “It is Allah Who sends The Winds, and they raise The Clouds:
+then does He Spread them in the sky As He wills, and break them Into
+fragments, until thou seest Raindrops issue from the midst Thereof: then
+when He has Made them reach such Of His servants as He wills, Behold,
+they do rejoice!” [Al-Qur’aan 30:48] </b>
+ <p>&nbsp;</p>
+The Qur’aanic descriptions are absolutely accurate and agree perfectly with
+modern data on hydrology. 
+ <p>&nbsp;</p>
+<b>The water cycle is described in several verses of
+the Glorious Qur’aan, including 3:9, 7:57, 13:17, 25:48- 49, 36:34, 50:9-11,
+56:68-70, 67:30 and 86:11. </b></center></p>
+</div>
+
+      </div>
+    </div>
+    <div id="templatemo_content_right">
+      <div class="content_right_section_01">
+        <!--<center>advertisement</center> -->
+        <p>&nbsp;</p>
+        <a href="http://www.flashmo.com" target="_parent"><img src="images/wall.jpg" alt="free flash website" width="268" 
+
+height="201" /></a> </div>
+    
+    
+    <!-- Recenet Post -->
+   <div class="content_right_section_02">
+        <!--<center>advertisement</center> -->
+       <p>&nbsp;</p>
+        <h3><center> Weekly Hadith </center></h3>
+        <p>&nbsp;</p>
+        <p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+<p>&nbsp;</p>
+<p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+    </div> 
+    
+     <div class="content_right_section_03">
+        <!--<center>advertisement</center> -->
+        <p>&nbsp;</p>
+        <h3><center> Quran and Science </center></h3>
+        <p>&nbsp;</p>
+        <p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+<p>&nbsp; </p>
+<p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+    </div>
+     </div>
+    
+    <div class="cleaner_with_height">&nbsp;</div>
+    <div class="tempaltemo_content_left_section_03">
+      <h1><center>ISLAMIC LECTURE</center></h1>
+      <div class="section_03_box">
+        <h4>
+        Tawheed <a href="#"><img src="images/Tawheed.jpg" alt="templatemo" width="80" height="100" /></a>
+        <p> <a href="#">There is no God but ALLAH</a> </p>
+      </div>
+      <div class="section_03_box">
+        <h4>Purification</h4>
+        <a href="#"><img src="images/Pure.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#"> Wudu and Ghusul</a> </p>
+      </div>
+      <div class="section_03_box">
+        <h4>Tafseer</h4>
+        <a href="#"><img src="images/Khalid.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#">TEXT WILL BE HERE </a></p>
+      </div>
+      <div class="section_03_box">
+        <h4>Prayer</h4>
+        <a href="#"><img src="images/yusuf.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#">Pray as you have seen me pray </a></p>
+      </div>
+    
+    </div>
+    <!-- end of content left -->
+ 
+    <div class="cleaner">&nbsp;</div>
+  </div>
+  <!-- end of content -->
+  <div id="templatemo_footer"> <a href="#">Home</a> | <a href="#">Events</a> | <a href="#">Gallery</a> | <a href="#">Bars</a> | <a href="#">Company</a> | <a 
+
+href="#">Contact</a><br />
+    Copyright � 2012 <a href="#"><strong>ISLAM UNVIELED</strong></a> | <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent">Free Web Template</a> <br />
+    <br />
+    <p>Lorem ipsum nunc quis sem dolor sit amet, consectetuer adipiscing elit. Nunc quis sem nec tellus blandit tincidunt. Duis 
+      
+      mollis aliquet ligula. Maecenas adipiscing elementum vitae velit sed dui malesuada dignissim. Donec mollis aliquet ligula. Maecenas 
+      
+      adipiscing elementum ipsum. </p>
+  </div>
+  <!-- end of footer -->
+<!--  Designed by w w w . t e m p l a t e m o . c o m  --></div>
+<!-- end of container -->
+
+</body>
+</html>

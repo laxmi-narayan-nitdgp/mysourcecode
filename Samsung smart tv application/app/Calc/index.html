@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>calculator_dude</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+<style>
+.butt{
+background-color:#82D7CC;
+    margin:5px; 
+    border:groove;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font: 15px/100% Arial, Helvetica, sans-serif;
+    padding: 0px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em; 
+    border-radius: .5em;
+    width:50px;
+    height:50px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.9);
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+    text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+    
+}
+.butt:hover {
+	text-decoration: none;
+}
+.butt:active {
+	position: relative;
+	top: 1px;
+}
+#ist{
+margin-left: 20px;
+size: 20px;
+border: 20px;
+border-color:#C30;
+height: 30px;
+width: 300px;
+font-size:20px;
+margin-bottom: 30px
+border-radius:10px;
+box-shadow:0 0 10px #9ecaed;
+-webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+         
+            box-shadow: 0px 0px 4px #4195fc;
+}
+
+#ttx{
+	margin-left:30px;
+	text-align: center;
+	width:40px;
+	
+	
+	font: 20px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	
+	box-shadow: 0 1px 2px rgba(0,0,0,.9);
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc;
+    text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+}
+#ttxt{
+	text-align: left;
+	margin-bottom:20px;
+    margin-top:14px;
+	width:400px;
+    color: red;   
+	font: 35px Arial, Helvetica, sans-serif;
+}
+</style>
+		<!-- TODO: Plugins -->
+
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();" style="background:-webkit-gradient(linear, 37% 0%, 37% 96%, from(#EBBAC7), to(#EDABCC), color-stop(.6,#D8CCD9),color-stop(.3,#E4ADE6));margin-left: 20px;margin-top: 14px;">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+<script language="javascript" type="text/javascript">
+<!-- Begin
+function addChar(input, character) {
+if(input.value == null || input.value == "0")
+input.value = character
+else
+input.value += character
+}
+function cos(form) {
+form.display.value = Math.cos(form.display.value);}
+function sin(form) {
+form.display.value = Math.sin(form.display.value);}
+function tan(form) {
+form.display.value = Math.tan(form.display.value);}
+function sqrt(form) {
+form.display.value = Math.sqrt(form.display.value);}
+function ln(form) {
+form.display.value = Math.log(form.display.value);}
+function exp(form) {
+form.display.value = Math.exp(form.display.value);}
+function sqrt(form) {
+form.display.value = Math.sqrt(form.display.value);}
+function deleteChar(input) {
+input.value = input.value.substring(0, input.value.length - 1)
+}
+function changeSign(input) {
+if(input.value.substring(0, 1) == "-")
+input.value = input.value.substring(1, input.value.length)
+else
+input.value = "-" + input.value
+}
+function compute(form)  {
+form.display.value = eval(form.display.value)}
+function square(form)  {
+form.display.value = eval(form.display.value) *
+eval(form.display.value)}
+function checkNum(str)  {
+for (var i = 0; i < str.length; i++) {
+var ch = str.substring(i, i+1)
+if (ch < "0" || ch > "9") {
+if (ch != "/" && ch != "*" && ch != "+" && ch !=
+"-" && ch != "."
+&& ch != "(" && ch!= ")") {
+document.write("invalid entry!");
+return false
+         }
+      }
+   }
+return true
+}
+// End -->
+</script>
+<FORM>
+
+<h1 id="ttxt"> Calculate Here </h1>
+
+<input name="display" style= "padding-left:10px margin-bottom:10px; font-size:15px"  id="ist" placeholder="Enter the number"/>
+<br>
+<input type="button" value="   Enter       " name="enter"
+onClick="if (checkNum(this.form.display.value)) { compute(this.form) }" class="butt">
+<input type="button" value="    7    " onClick="addChar(this.form.display, '7')" class="butt">
+<input type="button" value="    8    " onClick="addChar(this.form.display, '8')" class="butt">
+<input type="button" value="    9    " onClick="addChar(this.form.display, '9')" class="butt">
+<input type="button" value="    /    " onClick="addChar(this.form.display, '/')" class="butt">
+<br>
+<input type="button" value="   ln    " onClick="if (checkNum(this.form.display.value)) { 
+ln(this.form) }" class="butt">
+<input type="button" value="    4    " onClick="addChar(this.form.display, '4')" class="butt">
+<input type="button" value="    5    " onClick="addChar(this.form.display, '5')" class="butt">
+<input type="button" value="    6    " onClick="addChar(this.form.display, '6')" class="butt">
+<input type="button" value="    *    " onClick="addChar(this.form.display, '*')" class="butt">
+<br>
+<input type="button" value="   sqrt  " onClick="if (checkNum(this.form.display.value)) {sqrt(this.form) }" class="butt">
+<input type="button" value="    1    " onClick="addChar(this.form.display, '1')" class="butt">
+<input type="button" value="    2    " onClick="addChar(this.form.display, '2')" class="butt">
+<input type="button" value="    3    "  onClick="addChar(this.form.display, '3')" class="butt">
+<input type="button" value="    -    "  onClick="addChar(this.form.display, '-')" class="butt">
+<br>
+<input type="button" value="   sq    " onClick="if (checkNum(this.form.display.value)) { 
+square(this.form) }" class="butt">
+<input type="button" value="    0    " onClick="addChar(this.form.display, '0')" class="butt">
+<input type="button" value="    .    " onClick="addChar(this.form.display, '.')"class="butt">
+<input type="button" value="   +/-   " onClick="changeSign(this.form.display)"class="butt">
+<input type="button" value="    +    " onClick="addChar(this.form.display, '+')"class="butt">
+<br>
+<!--   <input type="button" value="    (    " onClick="addChar(this.form.display, '(')"> -->
+<input type="button" value="   cos   " onClick="if (checkNum(this.form.display.value)) { 
+cos(this.form) }" class="butt">
+<input type="button" value="   sin   " onClick="if (checkNum(this.form.display.value)) {
+sin(this.form) }"class="butt">
+<input type="button" value="   tan   " onClick="if (checkNum(this.form.display.value)) { 
+tan(this.form) }"class="butt">
+<!-- <input type="button" value="    )    " onClick="addChar(this.form.display, ')')"> -->
+<br>
+<input type="button" value="   Clear       "  onClick="this.form.display.value = 0 "class="butt">
+<input type="button" value="   Back Space  " onClick="deleteChar(this.form.display)"class="butt">
+
+</FORM>	</body>
+</html>

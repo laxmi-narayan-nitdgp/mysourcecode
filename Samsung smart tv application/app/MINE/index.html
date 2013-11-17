@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML Minesweeper</title>
+			<meta name="description" content="HTML/CSS/JavaScript minesweeper experiment.">
+			<meta name="author" content="ign <ignacio[at]ign.uy>">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+			
+			<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+<link rel="stylesheet" href="css/minecss.css" type="text/css"/>
+<script type="text/javascript" src="js/jq.js"></script>
+<style type="text/css">
+		
+		
+	</style>
+</head>
+<body  onclick="javascript : return false;">
+
+	<!-- Dummy anchor as focus for key events -->
+	
+</script>
+<div id="news">
+
+
+	<script src="js/srr.js"></script>
+    
+    
+        <script >
+        alert("hello coder");
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'search',
+//	  search: 'from:timesofindia OR from:httweets OR TOIIndiaNews or cnnbrk ',
+	  search: 'from:SrBachchan OR from:aamir_khan OR iamsrk OR iHrithik OR kjohar25 OR juniorbachchan  OR BeingSalmanKhan OR arrahman  OR deepikapadukone OR realpreityzinta OR   shreyaghoshal  OR Riteishd  OR geneliad OR AnupamPkher OR bipsluvurself OR madhuridixit1 OR mangeshkarlata OR sonuniigaam OR MaheshNBhatt',
+	  interval: 6000,
+	  title: ' ',
+	  subject: 'Bollywood tweets',
+	  width: 300,
+	  height: 600,
+	  theme: {
+		shell: {
+		  background: 'transparent',
+		  color: '#333'
+		},
+		tweets: {
+		  background: 'transparent',
+		  color: '#333',
+		  links: '#c10000'
+		}
+	  },
+	  features: {
+		scrollbar: false,
+		loop: true,
+		live: true,
+		hashtags: true,
+		timestamp: true,
+		avatars: true,
+		toptweets: true,
+		behavior: 'default'
+	  }
+	}).render().start();
+	</script>
+    
+    
+    
+    <script>
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'search',
+//	  search: 'from:timesofindia OR from:httweets OR TOIIndiaNews or cnnbrk ',
+	  search: 'from:timesofindia OR from:httweets OR TOIIndiaNews OR DDINews OR IBN7',
+	  interval: 6000,
+	  title: ' ',
+	  subject: 'NEWS tweets',
+	  width: 300,
+	  height: 600,
+	  theme: {
+		shell: {
+		  background: 'transparent',
+		  color: '#333'
+		},
+		tweets: {
+		  background: 'transparent',
+		  color: '#333',
+		  links: '#c10000'
+		}
+	  },
+	  features: {
+		scrollbar: false,
+		loop: true,
+		live: true,
+		hashtags: true,
+		timestamp: true,
+		avatars: true,
+		toptweets: true,
+		behavior: 'default'
+	  }
+	}).render().start();
+	</script>
+
+
+
+    </div>
+    
+    
+ <script type="text/javascript">   
+    
+function fff(){	 	 
+	var x = $('body').width();
+
+    	if (x > 800) {
+    		alert("inside greater");
+    		$('<link rel="stylesheet" href="css/minecss.css" type="text/css">').appendTo('head');
+   		} 
+		else if (x <800){
+			alert("inside less");
+    		    		//$('<link rel="stylesheet" href="css/minecss.css" type="text/css">').remove();
+						//$('<link rel="stylesheet" href="css/mfull.css" type="text/css">').appendTo('head');
+			$('.twtr-widget').css({'margin':' 40px 0 0 80px'});
+   		}
+	
+
+	
+
+}	
+	$(document).ready(function(){
+window.onresize= function(){
+fff();
+}
+		});
+
+	
+	
+	
+	</script>
+</body>
+</html>

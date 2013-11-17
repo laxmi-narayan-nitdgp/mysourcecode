@@ -1,0 +1,63 @@
+
+#videocss{
+	position:fixed;
+	
+	}
+
+.titlec {
+  font-size: 12pt;
+  position:fixed;
+}
+ul.videos li {
+	padding-left:20px;
+	padding-right:20px;
+margin-left:20px;
+margin-right:20px;
+margin-top:20px;
+margin-bottom:20px;
+	float:left;
+	width: 50px;
+	height:50px;
+	border-width:5px;
+	margin-bottom: 1em;
+	background-color:#66F;
+	
+}
+
+ul.videos li :hover
+{
+	cursor: pointer;
+	border-style:solid;
+	border-color: red;
+}
+
+ul.videos
+{
+	margin-top:100px;
+	padding:50px;
+}
+  
+  
+  
+#videos2{ 
+	
+	margin-left:50px;
+	margin-right:50px	
+	border-style:solid;
+	background:#69F;
+	margin-top:100px;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+
+#pcont{
+	border-style:solid;
+	background-color: purple;
+	border-radious:10px;
+	
+}

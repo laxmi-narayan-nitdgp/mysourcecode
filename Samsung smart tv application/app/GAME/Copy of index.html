@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>calculator_dude</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+		<script src="js/oz.js"></script>
+		<script src="js/atoms.js"></script>
+		<script src="js/canvas.js"></script>
+		<script src="js/board.js"></script>
+		<script src="js/player.js"></script>
+		<script src="js/setup.js"></script>
+<script src="js/aa.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="hcss.css" />
+        <script src="jquery.js"></script>
+
+
+	</head>
+
+	<body onLoad="new Setup()" style="alignment-adjust:central ; onload="Main.onLoad();" onunload="Main.onUnload();">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+
+		<div id="setup">
+		
+			<h1 id="iyou">  Game  </h1>
+			
+			<div id="local" style="margin-bottom:10px">
+				<h2 style="margin-bottom:10px;">Select player </h2>
+				<p id="aa" style="display: none">
+					Number of players: 
+					<select id="local-players" >
+						<option value="2" selected="selected">2</option>						
+					</select>
+				</p>
+				<div id="local-roster">
+					<p>
+ <span></span> 
+						<select>
+							<option value="ui">Human</option>
+							<option value="ai">AI</option>
+						</select>
+						Name: <input type="text" size="10" />
+					</p>
+				</div>
+				
+				<p>
+				<input type="button" id="local-play" value="Play Game" class="btsty" />
+				<input type="button" id="rl" value="rules"  class="btsty"/>
+				</p>
+                </div>
+                
+                
+                
+                
+                <div id="rr">
+			<h1>rules</h1>
+<p>The game is played on a board consisting of several (initially empty) cells.
+Every player has a distinct color.
+Players take turns; each turn, a player must place an atom of his color to the game board.
+Atoms can be placed either to an empty cell, or to a cell which already contains your color.
+Every cell can contain a maximum of atoms equal to the number of its neighbors (4-side neighborhood).
+When the amount of atoms in a cell exceeds that cell's maximum, the cell explodes: one atom jumps to every neighbor.
+Jumping atoms instantly re-color all atoms in target cell to their own color.
+Player owning all cells on the board wins.
+</p>
+</div>
+
+        <script>
+		
+		$(document).ready(function() {
+$('#rl').click(function() { 
+
+       if ($('#rr').is(':visible')) {
+        $('#rr').hide();
+                         }
+else{
+ $('#rr').show();
+}
+}
+);
+        });
+		</script>
+
+                </div>
+                
+		</div>
+        </center>
+        
+        
+        
+        
+        
+        
+        
+           
+ <script type="text/javascript">   
+    
+function fff(){	 	 
+	var x = $('body').width();
+
+    	if (x < 800) {
+    		alert("inside greater");
+    	//	$('<link rel="stylesheet" href="css/minecss.css" type="text/css">').appendTo('head');
+   		} 
+		else if (x >800){
+			alert("inside less");
+    		    		//$('<link rel="stylesheet" href="css/minecss.css" type="text/css">').remove();
+						//$('<link rel="stylesheet" href="css/mfull.css" type="text/css">').appendTo('head');
+		//	$('.twtr-widget').css({'margin':' 40px 0 0 80px'});
+			$('body').css({'height':'540px','width':'960px'});
+   		}
+	
+
+	
+
+}	
+	$(document).ready(function(){
+window.onresize= function(){
+fff();
+}
+		});
+
+	
+	
+	
+	</script>
+        
+        
+        
+        		
+	</body>
+</html>
+		
+		
+		

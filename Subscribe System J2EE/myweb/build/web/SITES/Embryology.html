@@ -1,0 +1,951 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fasion website layout - free css template</title>
+<meta name="keywords" content="fashion website layout, free css template" />
+<meta name="description" content="Fashion Template - free css template provided by templatemo.com" />
+<!--  Free CSS Template is designed by TemplateMo.com  -->
+
+
+
+<link href="quranscience.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333333; 
+	
+	
+}
+
+a:link, a:visited { color: #333333; text-decoration: none;} 
+a:active, a:hover {
+	/*color: #D6D6D6;*/
+	text-decoration: underline;
+	color: #030;
+}
+
+h1 {
+	margin: 0 0 5px 0;
+	padding: 10px 0 10px 10px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #FFF; 
+	
+	background: #0C3211; 
+	/*background:#0C3211; */
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 10px;
+	font-size: 26px;
+	font-style: normal;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #030; 
+	/*background: #0C3211;*/
+}
+
+
+h3 {
+	letter-spacing: 5px;
+	margin: 0;
+	padding: 3px 0 3px 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color:  #ffffff;
+	background: #0C3211;
+}
+
+h4 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+
+h5 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #195fff;
+}
+
+p{
+	margin: 0 0 15px 0;
+	font-size: 12px;
+	/*color: #FFFFFF;*/
+	
+}
+
+img {
+	border: none;
+	margin: 0;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+}
+
+#templatemo_container {
+	margin: auto;
+	width: 960px;
+	background-color: #F7F7F7; 
+	
+}
+
+/* top panel */
+#templatemo_top_panel {
+	width: 960px;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	background: #0C3211;
+	/*background: #063; OKAY*/ 
+	/*background: #003 url(images/templatemo_top_panel_background.jpg) no-repeat; */
+}
+
+#templatemo_header {
+	float: left;
+	display: inline;
+	margin: 40px 0 0 30px;
+}
+
+#templatemo_header #site_title{
+	padding: 10px 0 8px 0;
+	margin: 0;
+	color: #FFF;
+	font-size: 50px;
+	font-weight: bold;
+	background: none;
+}
+
+#templatemo_header #slogan{
+	padding-left: 3px;
+	margin: 0;
+	color: #CCC;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.templatemo_ad_468x60 {
+	float: right;
+	color: #FFFFFF;
+	margin: 40px 15px 0 0;
+	width: 468px;
+	height: 60px;
+}
+
+.templatemo_ad_468x60 img{
+	border: none;
+}
+/* end of top panel */
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	width: 960px;
+	height: 35px;
+	background: #000; 
+	/*background: #000; */
+	border-bottom: 1px solid #333;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 750px;
+	margin: 0;
+	padding: 10px 0 0 0 ;
+	list-style: none;
+}
+
+#templatemo_menu li {
+	float :left;
+}
+
+/*#templatemo_menu ul li{
+	display: inline;
+}*/
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 11px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	/*color: #FFFFFF; orignal */
+	color: #FFFFFF;
+	/*border-right: 1px solid #FFFFFF; orginal */
+	border-right: 1px solid #FFFFFF;
+}
+
+#templatemo_menu ul li .lastmenu{
+	border-right: none;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #099;
+/*	color: #b3d7fc; orignal */
+}
+
+#templatemo_menu form{
+	float: right;
+	width: 170px;
+	margin: 0;
+	padding: 5px 0 0 0;
+	text-align: left;	
+}
+
+#templatemo_menu form input{
+	width: 120px;
+/*	color: #FFFFFF; orignal */
+color: #FFFFFF;
+	background: #000;
+	height: 20px;
+	border: 1px solid #666;
+}
+
+#templatemo_menu form .button{
+	border: none;
+	background: none;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+	width: 40px;
+}
+/* ----------------- end of menu----------------*/
+
+
+	
+/* Dropdown Menus */		
+#templatemo_menu li ul {
+	position: absolute;
+	left: -999em;
+	padding: 25px 0 1px 0;
+	height: auto;
+	width: 55px;
+	/*width: 174px; orignal */
+	border-bottom: 0px solid #a9a9a9;
+	}
+
+#templatemo_menu li li {
+	width: 125px;
+	height: 25px;
+	padding:5px 0 0 0 ;
+	/* width: 172px; orignal; */
+	/*border-top: 1px solid #a9a9a9; */
+	border-top: 1px solid #333;
+	border-right: 0px solid #a9a9a9;
+	border-left: 0px solid #a9a9a9;
+	background: #121212;
+	color: #FFFFFF;
+	} 
+
+#templatemo_menu li li a, #templatemo_menu li li a:visited {
+	font-weight:normal;
+	font-size:0.9em;
+	color:#FFF;
+	}
+	
+	#templatemo_menu li li a:hover, #templatemo_menu li li a:active {
+	background:#000;
+	}	
+		
+#templatemo_menu li:hover ul, #templatemo_menuli li:hover ul, #templatemo_menu li li li:hover ul, #templatemo_menu li.sfhover ul, #templatemo_menu li li.sfhover ul, #templatemo_menu li li li.sfhover ul {
+	left: auto;
+	}
+
+a.main:hover
+{	background:none;
+	}*/
+/* ----------------- end of dropdownmenu----------------*/
+#templatemo_content {
+	width: 960px;
+	margin-bottom: 25px;
+	/*background-color: #FFF; */
+	
+}
+
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 640px;
+	padding: 0 10px 0 0;
+	border-right: 0px solid #CCCCCC;
+	font-size: 12px;
+}
+
+#templatemo_content #templatemo_content_right {
+	float: right;
+	width: 300px;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_01 {
+	clear: both;
+	width: 640px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.tempaltemo_content_left_section_01  .section_01_two_col {
+	float: left;
+	width: 300px;
+	margin: 0 20px 0 0;
+}
+
+.section_01_two_col .section_01_box {
+	clear: both;
+	width: 100%;
+	height: 159px;
+	padding: 15px 0 0 0;
+	border-bottom: 0px solid #CCCCCC;
+}
+.section_01_box .section_01_box_title{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.section_01_box img{
+	float: left;
+	margin: 3px 15px 0 0;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_02{
+	clear: both;
+	width: 640px;
+}
+
+.tempaltemo_content_left_section_02  .section_02_box {
+	float: left;
+	width: 298px;
+	border: 1px solid #CCCCCC;
+	margin: 0 20px 0 0px;
+}
+
+.section_02_box .section_02_box_content{
+	float: left;
+	padding: 15px;
+}
+
+.section_02_box_content .section_02_box_content_title {
+	font-weight: bold;
+}
+
+.section_02_box_content ul{
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.section_02_box_content ul li{
+	padding: 0 0 5px 15px;
+	margin: 0;	
+	background: url(images/templatemo_listicon.gif) top left no-repeat;
+}
+
+.section_02_box img {
+	float: left;
+	margin: 3px 15px 0 0;
+}
+
+#templatemo_content_left .tempaltemo_content_left_section_03 {
+	clear: both;
+	width: 640px;
+	background: #d2d6db;
+}
+
+.tempaltemo_content_left_section_03 .section_03_box {
+	float: left;
+	width: 140px;
+	margin: 0 10px;
+}
+
+#templatemo_content_right .content_right_section_01 {
+	width: 300px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 0px solid #CCCCCC;
+}
+
+.content_right_section_01 .blog_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.content_right_section_01 .blog_box h5 a{
+	color: #195fff;	
+}
+
+.content_right_section_01 .blog_box span{
+	color: #ff366f;
+}
+
+
+.content_right_section_01 .sister_links_box {
+	float: left;
+	width: 140px;
+	padding-right: 10px;
+}
+
+/* ---Right section recet post */
+ #templatemo_content_right .content_right_section_02 {
+	width: 300px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0px solid #F3C;
+}
+
+ #templatemo_content_right .content_right_section_03 {
+	width: 300px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 0px solid #F3C;
+}
+/*
+.content_right_section_02 .blog_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.content_right_section_02 .blog_box h5 a{
+	color: #195fff;	
+}
+
+.content_right_section_02 .blog_box span{
+	color: #ff366f;
+} */
+
+
+/* ----- Footer ----- */
+#templatemo_footer {
+	clear: both;
+	padding: 10px 25px;
+	width: 910px;
+	text-align: center;
+	background: #DDD;
+	text-align: center;
+	font-size: 11px;
+	color: #666;
+}
+
+#templatemo_footer p{
+	margin-bottom: 10px;
+	padding: 0;
+	text-align: justify;
+}
+
+#templatemo_footer a{
+	font-weight: normal;
+}
+
+/* ----- End of Footer ----- */
+</style>
+</head>
+
+
+
+<!--<body bgcolor= "#FFF"> orignal -->
+<body>
+<div id="templatemo_container">
+  <div id="templatemo_top_panel">
+    <div id="templatemo_header">
+      <div id="site_title">ISLAM UNVEILED</div>
+      <div id="slogan">Read in the name of thy Lord who created you from sensitive drop of blood</div>
+    </div>
+  </div>
+  <!-- end of top panel -->
+  <div id="templatemo_menu">
+    <ul>
+      <li><a href="index.html" > Home</a></li>
+      <li><a href="Islam.html" >Islam </a>
+      <ul><li> <center>Introduction to Islam </center></li>
+               <li><center> Concept of God</center></li>
+               <li><center> Name to call God </center></li>
+              </ul></li>
+      <li><a href="Prophets.html" >Prophet</a> 
+      <ul><li> <center>Introduction to Islam </center></li>
+               <li><center> Concept of God</center></li>
+               <li><center> Name to call God </center></li>
+              </ul>
+                   </li>
+      <li><a href="Books.html" >Revealed Books </a>
+      <ul><li><center>Quran </center></li>
+               <li><center>Gospel </center></li>
+               <li><center>Torah</center></li>
+               <li><center>Psalms</center></li></ul>
+               </li>
+      <li><a href="women.html">Women in Islam</a></li>
+      <li><a href="Facts.html" class="current">Facts</a>
+       <ul><li> <center>Coffee </center></li>
+               <li><center>Milk </center></li>
+               <li><center>Sugar </center></li>
+               <li><center>Honey</center></li>
+               <li><center>Milk </center></li>
+               <li><center>Sugar </center></li>
+               <li><center>Honey</center></li> </ul>
+               </li>
+      
+      <li><a href="subpage.html">Articles</a></li>
+      <li><a href="subpage.html">Videos</a></li>
+      <li><a href="subpage.html">Forum</a></li>
+      <li><a href="#">Contact us </a></li>
+    </ul>
+    <form method="get" action="#">
+      <input name="search" value="Search..." type="text" />
+      <input class="button" type="submit" name="Search" value="GO" />
+    </form>
+  </div>
+  <!-- end of menu -->
+  <div id="templatemo_content">
+    <div class="tempaltemo_content_left_section_01">
+      <div id="templatemo_content_left">
+        <p>&nbsp;</p>
+      <a href="#"><img src="images/embryo.jpg" alt="templatemo"  width ="650" height="270"/></a><p>&nbsp;</p>
+        <center>
+        &nbsp;
+        <h4><center><b>EMBRYOLOGY</b></center></h4>
+        <p>&nbsp;</p>
+        
+        <div class="tempaltemo_content_left_section_01">
+        <h2 style="font-size:24px; font-weight:400">MAN IS CREATED FROM ALAQ A LEECH-LIKE  </h2>
+        <h2 style="font-size:24px; font-weight:400">SUBSTANCE </h2>
+        <p>&nbsp;</p>
+       <p><center> 
+A few years ago a group of Arabs collected all information concerning
+embryology from the Qur’aan, and followed the instruction of the Qur’aan: <br/>
+<b>“If ye realise this not, ask Of those who possess the Message.” [Al-
+Qur’aan 16:43 & 21:7]</b>
+        <p>&nbsp;</p>
+All the information from the Qur’aan so gathered, was translated into English
+and presented to Prof. (Dr.) Keith Moore, who was the Professor of
+Embryology and Chairman of the Department of Anatomy at the University
+of Toronto, in Canada. At present he is one of the highest authorities in the
+field of Embryology. He was asked to give his opinion regarding the
+information present in the Qur’aan concerning the field of embryology. After
+carefully examining the translation of the Qur’aanic verses presented to him,
+Dr. Moore said that most of the information concerning embryology
+mentioned in the Qur’aan is in perfect conformity with modern discoveries in
+the field of embryology and does not conflict with them in any way. He added
+that there were however a few verses, on whose scientific accuracy he could
+not comment. He could not say whether the statements were true or false,
+since he himself was not aware of the information contained therein.
+        <p>&nbsp;</p>
+        There was also no mention of this information in modern writings and studies
+on embryology.</br> One such verse is: </br>
+
+<b>“Proclaim! (or Read!) In the name Of
+thy Lord and Cherisher, Who created – Created man, out of A (mere)
+clot Of congealed blood.” [Al-Qur’aan 96:1-2]</b>
+                <p>&nbsp;</p>
+                The word <i><b>ALAQ</b></i> besides meaning a congealed clot of blood also means
+something that clings, a leech-like substance. Dr. Keith Moore had no
+knowledge whether an embryo in the initial stages appears like a leech. To
+check this out he studied the initial stage of the embryo under a very powerful
+microscope in his laboratory and compared what he observed with a diagram
+of a leech and he was astonished at the striking resemblance between the two!
+<p>&nbsp;</p>
+In the same manner, he acquired more information on embryology that was
+hitherto not known to him, from the Qur’aan. Dr. Keith Moore answered
+about eighty questions dealing with embryological data mentioned in the
+Qur’aan and Hadith. Noting that the information contained in the Qur’aan and
+Hadith was in full agreement with the latest discoveries in the field of
+embryology, Prof. Moore said, “If I was asked these questions thirty years
+ago, I would not have been able to answer half of them for lack of scientific
+information”
+<p>&nbsp;</p>
+Dr. Keith Moore had earlier authored the book, ‘The Developing Human’.
+After acquiring new knowledge from the Qur’aan, he wrote, in 1982, the 3rd
+edition of the same book, ‘The Developing Human’. The book was the
+recipient of an award for the best medical book written by a single author.
+This book has been translated into several major languages of the world and
+is used as a textbook of embryology in the first year of medical studies.
+In 1981, during the Seventh Medical Conference in Dammam, Saudi Arabia,
+Dr. Moore said, “It has been a great pleasure for me to help clarify statements
+in the Qur’aan about human development. It is clear to me that these
+statements must have come to Muhammad from God or Allah, because
+almost all of this knowledge was not discovered until many centuries later.
+This proves to me that Muhammad must have been a messenger of God or
+Allah.” 12
+<p>&nbsp;</p>
+Dr. Joe Leigh Simpson, Chairman of the Department of Obstetrics and
+Gynaecology, at the Baylor College of Medicine, Houston, U.S.A.,
+proclaims: “...these Hadiths, sayings of Muhammad (pbuh) could not have
+been obtained on the basis of the scientific knowledge that was available at
+the time of the writer (7th century). It follows that not only is there no conflict
+between genetics and religion (Islam) but in fact religion (Islam) may guide
+science by adding revelation to some of the traditional scientific
+approaches… there exist statements in the Qur’aan shown centuries later to
+be valid which support knowledge in the Qur’aan having been derived from
+God.”
+</center></p>
+</div>
+<p>&nbsp;  </p>
+
+<div class="tempaltemo_content_left_section_01">
+<h2 style="font-size:24px; font-weight:400">MAN CREATED FROM A DROP EMITTED FROM </h2>
+<h2 style="font-size:24px; font-weight:400">BETWEEN THE BACK BONE AND THE RIBS </h2>
+        <p>&nbsp;  </p>
+       <p><center> 
+<b>“Now let man but think From what he is created! He is created from A
+drop emitted – Proceeding from between The back bone and the ribs.”
+[Al-Qur’aan 86:5-7] </b>
+<p>&nbsp;  </p>
+In embryonic stages, the reproductive organs of the male and female, i.e. the
+testicles and the ovaries, begin their development near the kidney between the
+spinal column and the eleventh and twelfth ribs. Later they descend; the
+female gonads (ovaries) stop in the pelvis while the male gonads (testicles)
+continue their descent before birth to reach the scrotum through the inguinal
+canal. Even in the adult after the descent of the reproductive organ, these
+organs receive their nerve supply and blood supply from the Abdominal
+Aorta, which is in the area between the backbone (spinal column) and the
+ribs. Even the lymphatic drainage and the venous return goes to the same
+area.
+</center></p> </div>
+
+<p>&nbsp;  </p>
+
+<div class="tempaltemo_content_left_section_01">
+<h2 style="font-size:24px; font-weight:400">HUMAN BEINGS CREATED FROM NUTFAH</h2>
+<h2 style="font-size:24px; font-weight:400">(Minute Quantity of Liquid)</h2>
+        <p>&nbsp;  </p>
+       <p><center> 
+The Glorious Qur’aan mentions no less than eleven times that the human
+being is created from nutfah, which means a minute quantity of liquid or a
+trickle of liquid which remains after emptying a cup. <p>&nbsp;  </p> <b> This is mentioned in
+several verses of the Qur’aan including 22:5 and 23:13. 13 </b>
+<p>&nbsp;  </p>
+Science has confirmed in recent times that only one out of an average of three
+million sperms is required for fertilising the ovum. This means that only a
+1/three millionth part or 0.00003% of the quantity of sperms that are emitted
+is required for fertilisation.
+</center></p>
+</div>
+
+
+<p>&nbsp;  </p>
+
+<div class="tempaltemo_content_left_section_01">
+<h2 style="font-size:24px; font-weight:400">HUMAN BEINGS CREATED FROM SULALAH</h2>
+<h2 style="font-size:24px; font-weight:400">(Quintessence of liquid)</h2>
+        <p>&nbsp;  </p>
+       <p><center> 
+<b>“And made his progeny From a quintessence Of the nature of A fluid
+despised.” [Al-Qur’aan 32:8] </b>
+<p>&nbsp;  </p>
+The Arabic word sulâlah means quintessence or the best part of a whole. We
+have come to know now that only one single spermatozoon that penetrates the
+ovum is required for fertilization, out of the several millions produced by
+man. That one spermatozoon out of several millions, is referred to in the
+Qur’aan as sulâlah. Sulâlah also means gentle extraction from a fluid. The
+fluid refers to both male and female germinal fluids containing gametes. Both
+ovum and sperm are gently extracted from their environments in the process
+of fertilization.
+</center></p>
+</div>
+<p>&nbsp;  </p>
+
+<div class="tempaltemo_content_left_section_01">
+<h2 style="font-size:24px; font-weight:400">MAN CREATED FROM NUTFATUN AMSHAAJ</h2>
+<h2 style="font-size:24px; font-weight:400">(Mingled liquids)</h2>
+        <p>&nbsp;  </p>
+       <p><center> 
+Consider the following Qur’aanic verse: <b> “Verily We created Man from a
+drop Of mingled sperm.” [Al-Qur’aan 76:2] </b> <br/>
+<p>&nbsp;  </p>
+The Arabic word nutfatin amshaajin means mingled liquids. According to
+some commentators of the Qur’aan, mingled liquids refers to the male or
+female agents or liquids. After mixture of male and female gamete, the zygote
+still remains nutfah. Mingled liquids can also refer to spermatic fluid that is
+formed of various secretions that come from various glands.
+<p>&nbsp;  </p>
+Therefore nutfatin amsaj, i.e. a minute quantity of mingled fluids refers to the
+male and female gametes (germinal fluids or cells) and part of the
+surrounding fluids.
+</center></p>
+</div>
+
+<p>&nbsp;  </p>
+
+<div class="tempaltemo_content_left_section_01">
+<h2 style="font-size:24px; font-weight:400">SEX DETERMINATION</h2>
+        <p>&nbsp;  </p>
+       <p><center> 
+The sex of a fetus is determined by the nature of the sperm and not the ovum.
+The sex of the child, whether female or male, depends on whether the 23rd
+pair of chromosomes is XX or XY respectively. Primarily sex determination
+occurs at fertilization and depends upon the type of sex chromosome in the
+sperm that fertilizes an ovum. If it is an ‘X’ bearing sperm that fertilizes the
+ovum, the fetus is a female and if it is a ‘Y’ bearing sperm then the fetus is a
+male. <br/>
+<b>“That He did create In pairs – male and female, From a seed when
+lodged (In its place).” [Al-Qur’aan 53:45-46] </b>
+<p>&nbsp;  </p>
+The Arabic word nutfah means a minute quantity of liquid and tumnâ means
+ejaculated or planted. Therefore nutfah specifically refers to sperm because it
+is ejaculated. The Qur’aan says: “Was he not a drop of sperm emitted (In
+lowly form)? “Then did he become A clinging clot; Then did (Allah)
+make And fashion (him) In due proportion. <br/>
+<b>“And of him He made Two sexes, male And female.” [Al-Qur’aan 75:37-39] </b>
+<p>&nbsp;  </p>
+Here again it is mentioned that a small quantity (drop) of sperm (indicated by
+the word nutfatan min maniyyin) which comes from the man is responsible
+for the sex of the fetus.
+<p>&nbsp;  </p>
+Mothers-in-law in the Indian subcontinent, by and large prefer having male
+grandchildren and often blame their daughters-in-law if the child is not of the
+desired sex. If only they knew that the determining factor is the nature of the
+male sperm and not the female ovum! If they were to blame anybody, they
+should blame their sons and not their daughters-in-law since both the Qur’aan
+and Science hold that it is the male fluid that is responsible for the sex of the
+child!
+</center></p></div>
+
+<p>&nbsp;  </p>
+<div class="tempaltemo_content_left_section_01">
+<h2 style="font-size:24px; font-weight:400">FOETUS PROTECTED BY THREE VEILS OF DARKNESS</h2>
+        <p>&nbsp;  </p>
+       <p><center>
+       <b>“He makes you, In the wombs of your mothers, In stages, one after
+another, In three veils of darkness.” [Al-Qur’aan 39:6]</b>
+<p>&nbsp;  </p>
+According to Prof. Keith Moore these three veils of darkness in the Qur’aan
+refer to:
+(i) anterior abdominal wall of the mother
+(ii) the uterine wall
+(iii) the amnio-chorionic membrane.
+</center></p> </div>
+       
+       <p>&nbsp;  </p>
+       <div class="tempaltemo_content_left_section_01">
+       <h2 style="font-size:24px; font-weight:400">EMBRYONIC STAGES</h2>
+        <p>&nbsp;  </p>
+       <p><center>
+      <b> “Man We did create From a quintessence (of clay); Then We placed him
+As (a drop of) sperm In a place of rest, firmly fixed; Then We made the
+sperm Into a clot of congealed blood; Then of that clot We made A
+(foetus) lump; then We Made out of that lump Bones and clothed the
+bones With flesh; then We developed Out of it another creature. So
+blessed be Allah, The Best to create!” [Al-Qur’aan 23:12-14]</b>
+<p>&nbsp;  </p>
+In this verse Allah states that man is created from a small quantity of liquid
+which is placed in a place of rest, firmly fixed (well established or lodged) for
+which the Arabic word qarârin makîn is used.
+<p>&nbsp;  </p>
+The uterus is well protected from the posterior by the spinal column
+supported firmly by the back muscles. The embryo is further protected by the
+amniotic sac containing the amniotic fluid. Thus the foetus has a well
+protected dwelling place. This small quantity of fluid is made into alaqah,
+meaning something which clings. It also means a leech-like substance. Both
+descriptions are scientifically acceptable as in the very early stages the foetus
+clings to the wall and also appears to resemble the leech in shape. It also
+behaves like a leech (blood sucker) and acquires its blood supply from the mother through
+the placenta. The third meaning of the word alaqah is a blood clot. During
+this alaqah stage, which spans the third and fourth week of pregnancy, the
+blood clots within closed vessels. Hence the embryo acquires the appearance
+of a blood clot in addition to acquiring the appearance of a leech. In 1677,
+Hamm and Leeuwenhoek were the first scientists to observe human sperm
+cells (spermatozoa) using a microscope. They thought that a sperm cell
+contained a miniature human being which grew in the uterus to form a
+newborn. This was known as the perforation theory. When scientists
+discovered that the ovum was bigger than the sperm, it was thought by De
+Graf and others that the foetus existed in a miniature form in the ovum. Later,
+in the 18th century Maupertuis propagated the theory of biparental
+inheritance. The alaqah is transformed into mudghah which means
+‘something that is chewed (having teeth marks)’ and also something that is
+tacky and small which can be put in the mouth like gum. Both these
+explanations are scientifically correct. Prof. Keith Moore took a piece of
+plaster seal and made it into the size and shape of the early stage of foetus and
+chewed it between the teeth to make it into a ‘Mudgha’. He compared this
+with the photographs of the early stage of foetus. The teeth marks resembled
+the ‘somites’ which is the early formation of the spinal column.
+This mudghah is transformed into bones (izâm). The bones are clothed with
+intact flesh or muscles (lahm). Then Allah makes it into another creature.
+Prof. Marshall Johnson is one of the leading scientists in US, and is the head
+of the Department of Anatomy and Director of the Daniel Institute at the
+Thomas Jefferson University in Philadelphia in US. He was asked to
+comment on the verses of the Qur’aan dealing with embryology. He said that
+the verses of the Qur’aan describing the embryological stages cannot be a
+coincidence. He said it was probable that Muhammad (pbuh) had a powerful
+microscope. On being reminded that the Qur’aan was revealed 1400 years
+ago, and microscopes were invented centuries after the time of Prophet
+Muhammad (pbuh), Prof. Johnson laughed and admitted that the first
+microscope invented could not magnify more than 10 times and could not
+show a clear picture. Later he said: “I see nothing here in conflict with the
+concept that Divine intervention was involved when Muhammad (pbuh)
+recited the Qur’aan.”
+<p>&nbsp;  </p>
+According to Dr. Keith Moore, the modern classification of embryonic
+development stages which is adopted throughout the world, is not easily
+comprehensible, since it identifies stages on a numerical basis i.e. stage I,
+stage II, etc. The divisions revealed in the Qur’aan are based on distinct and
+easily identifiable forms or shapes, which the embryo passes through. These
+are based on different phases of prenatal development and provide elegant
+scientific descriptions that are comprehensible and practical.
+Similar embryological stages of human development have been described in
+the following verses: <br/>
+<b> “Was he not a drop Of sperm emitted (In lowly
+form)? Then did he become a clinging clot; Then did (Allah) make and
+fashion (him) In due proportion. And of him He made Two sexes, male
+and female.” [Al-Qur’aan 75:37-39] </b>
+<p>&nbsp;  </p>
+<b>
+“Him Who created thee, fashioned thee in due proportion, And gave thee
+a just bias; In whatever Form He wills, Does He put thee together.” [Al-
+Qur’aan 82:7-8] </b></center></p></div>
+
+<p>&nbsp;  </p>
+
+       <div class="tempaltemo_content_left_section_01">
+       
+       <h2 style="font-size:24px; font-weight:400">EMBRYO PARTLY FORMED AND PARTLY UNFORMED</h2>
+        <p>&nbsp;  </p>
+       <p><center>
+       At the mugdhah stage, if an incision is made in the embryo and the internal
+organ is dissected, it will be seen that most of them are formed while the
+others are not yet completely formed.
+<p>&nbsp;  </p>
+According to Prof. Johnson, if we describe the embryo as a complete creation,
+then we are only describing that part which is already created. If we describe
+it as an incomplete creation, then we are only describing that part which is not
+yet created. So, is it a complete creation or an incomplete creation? There is
+no better description of this stage of embryogenesis than the Qur’aanic
+description, “partly formed and partly unformed”, as in the following verse: <br/>
+<b>“We created you Out of dust, then out of Sperm, then out of a leech-like
+Clot, then out of a morsel Of flesh, partly formed And partly unformed.”
+[Al-Qur’aan 22:5] </b> 
+<p>&nbsp;  </p>
+Scientifically we know that at this early stage of development there are some
+cells which are differentiated and there are some cells that are
+undifferentiated – some organs are formed and yet others unformed.
+</center></p>
+</div>
+
+
+<p>&nbsp;  </p>
+<div class="tempaltemo_content_left_section_01">
+<h2 style="font-size:24px; font-weight:400">SENSE OF HEARING AND SIGHTD</h2>
+        <p>&nbsp;  </p>
+       <p><center>
+       The first sense to develop in a developing human embryo is hearing. The
+foetus can hear sounds after the 24th week. Subsequently, the sense of sight is
+developed and by the 28th week, the retina becomes sensitive to light.
+<p>&nbsp;  </p>
+Consider the following Qur’aanic verses related to the development of the
+senses in the embryo: <br/><b> “And He gave You (the faculties of) hearing and
+sight and feeling (And understanding).” [Al-Qur’aan 32:9]
+<p>&nbsp;  </p>
+“Verily We created Man from a drop Of mingled sperm, In order to try
+him: So We gave him (the gifts), Of Hearing and Sight.” [Al-Qur’aan
+76:2]
+“It is He Who has created For you (the faculties of) Hearing, sight,
+feeling And understanding: little thanks It is ye give!” [Al-Qur’aan 23:78]</b>
+<p>&nbsp;  </p>
+In all these verses the sense of hearing is mentioned before that of sight. Thus
+the Qur’aanic description matches with the discoveries in modern
+embryology.
+            </center></p> </div>
+            
+      </div>
+    </div>
+    <div id="templatemo_content_right">
+      <div class="content_right_section_01">
+        <!--<center>advertisement</center> -->
+        <p>&nbsp;</p>
+        <a href="http://www.flashmo.com" target="_parent"><img src="images/wall.jpg" alt="free flash website" width="268" 
+
+height="201" /></a> </div>
+    
+    
+    <!-- Recenet Post -->
+   <div class="content_right_section_02">
+        <!--<center>advertisement</center> -->
+       <p>&nbsp;</p>
+        <h3><center> Weekly Hadith </center></h3>
+        <p>&nbsp;</p>
+        <p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+<p>&nbsp;</p>
+<p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+    </div> 
+    
+     <div class="content_right_section_03">
+        <!--<center>advertisement</center> -->
+        <p>&nbsp;</p>
+        <h3><center> Quran and Science </center></h3>
+        <p>&nbsp;</p>
+        <p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+<p>&nbsp; </p>
+<p><i>Narrated 'Abdullah bin 'Amr: A person asked Allah's Apostle . "What (sort of) deeds in or (what qualities of) Islam are good?" He replied, "To feed (the poor) and greet those whom you know and those whom you don't know."</i><b>  (Book #2, Hadith #27)</b>
+
+</p>
+    </div>
+     </div>
+    
+    <div class="cleaner_with_height">&nbsp;</div>
+    <div class="tempaltemo_content_left_section_03">
+      <h1><center>ISLAMIC LECTURE</center></h1>
+      <div class="section_03_box">
+        <h4>
+        Tawheed <a href="#"><img src="images/Tawheed.jpg" alt="templatemo" width="80" height="100" /></a>
+        <p> <a href="#">There is no God but ALLAH</a> </p>
+      </div>
+      <div class="section_03_box">
+        <h4>Purification</h4>
+        <a href="#"><img src="images/Pure.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#"> Wudu and Ghusul</a> </p>
+      </div>
+      <div class="section_03_box">
+        <h4>Tafseer</h4>
+        <a href="#"><img src="images/Khalid.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#">TEXT WILL BE HERE </a></p>
+      </div>
+      <div class="section_03_box">
+        <h4>Prayer</h4>
+        <a href="#"><img src="images/yusuf.jpg" alt="templatemo" width="100" /></a>
+        <p> <a href="#">Pray as you have seen me pray </a></p>
+      </div>
+    
+    </div>
+    <!-- end of content left -->
+ 
+    <div class="cleaner">&nbsp;</div>
+  </div>
+  <!-- end of content -->
+  <div id="templatemo_footer"> <a href="#">Home</a> | <a href="#">Events</a> | <a href="#">Gallery</a> | <a href="#">Bars</a> | <a href="#">Company</a> | <a 
+
+href="#">Contact</a><br />
+    Copyright � 2012 <a href="#"><strong>ISLAM UNVIELED</strong></a> | <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent">Free Web Template</a> <br />
+    <br />
+    <p>Lorem ipsum nunc quis sem dolor sit amet, consectetuer adipiscing elit. Nunc quis sem nec tellus blandit tincidunt. Duis 
+      
+      mollis aliquet ligula. Maecenas adipiscing elementum vitae velit sed dui malesuada dignissim. Donec mollis aliquet ligula. Maecenas 
+      
+      adipiscing elementum ipsum. </p>
+  </div>
+  <!-- end of footer -->
+<!--  Designed by w w w . t e m p l a t e m o . c o m  --></div>
+<!-- end of container -->
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* 
+    Document   : mcs
+    Created on : 28 Jun, 2013, 12:34:38 PM
+    Author     : kode-crypt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: #FB3A3A;
+    
+}

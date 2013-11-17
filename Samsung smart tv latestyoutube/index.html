@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>latestyoutube</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+<script type="text/javascript" src="http://swfobject.googlecode.com/svn/trunk/swfobject/swfobject.js"></script>
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+
+
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css"/>
+<link rel="stylesheet" href="app/stylesheets/screen1.css" type="text/css"/>
+<link rel="stylesheet" href="app/stylesheets/vidcss1.css" type="text/css"/>
+<link rel="stylesheet" href="app/stylesheets/pallet.css" type="text/css"/>
+
+<script language="javascript" type="text/javascript" src="app/javascript/jq.js"></script>
+<script language="javascript" type="text/javascript" src="app/javascript/hidepallet.js"></script>
+<script language="javascript" type="text/javascript" src="app/javascript/disvid.js"></script>
+<script language="javascript" type="text/javascript" src="app/javascript/clicksrchjs.js"></script>
+		<!-- TODO: Plugins -->
+
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+		
+			
+			
+			
+
+
+<div id="pcont1">
+<div id="playerContainer" style="margin-top: 5px;margin-left: 5px;" >
+   <object id="player"></object>
+</div>
+</div>
+
+<div id="vcn">
+<div id="videos2">
+</div>
+</div>
+
+<div id="rdiv" style="background-color: navy;">
+
+<div id="rdiv1">
+<input type="text" id="t1" name="t1" value="honey singh" style="height:50px;width:150px;font-size: 30px;" />
+
+ 
+
+
+
+       <input type="button" name="submit" value="Search Here" onclick="searchClicked()" id="b1" class="a_demo_two"/>
+       <br>       <br>               
+  <input type="button" name="submitt" value="Most Popular Here" onclick="mostpp()" id="b2" class="a_demo_two"/>
+  <br>                      <br>
+  <input type="button" name="submitt" value="Most recent Here" onclick="toprat()" id="b3" class="a_demo_two"/>
+  <br>                      <br>
+    <input type="button" name="submitt" value="favourite Here" onclick="topfav()" id="b4" class="a_demo_two"/>      
+		       <br>       <br>
+
+ </div>
+ 
+</div>
+
+
+
+<script>
+function searchClicke(){
+	alert("Hello coder");
+}
+</script>
+		
+	</body>
+</html>

@@ -1,0 +1,1 @@
+SELECT * FROM hunt_reg.registration;

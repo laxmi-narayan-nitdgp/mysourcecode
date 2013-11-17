@@ -1,0 +1,252 @@
+.winn{
+    
+    float: left;
+      color: #fff;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    
+}
+.winn1{
+    
+    float: right;
+      color: #fff;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    
+}
+
+body {	
+	padding: 2em 5em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	background: #eee;
+        height: 800;
+        width: 1200;
+	}
+        
+        div.mod {	
+	margin: 0 0 20px 0;
+	padding: 40px;
+        top: 30;
+        margin-top: 20px;
+	text-align: center;
+	background: #fff;
+        background-color: skyblue;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.1);
+	box-shadow: 0 0 3px rgba(0,0,0,.1);
+	}
+
+        @font-face {
+    font-family: "My Custom Font";
+    src: url(font.otf) format("truetype");
+}
+
+
+p.customfont { 
+    font-family: "My Custom Font";
+    letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 20pt;
+	font-variant: small-caps;
+}
+
+.a_demo_two {
+	background-color:#3bb3e0;
+	padding:10px;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(44,160,202)),
+	color-stop(1, rgb(62,184,229))
+	
+	);
+	-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	-moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	-o-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+
+
+text-decoration: 		none;
+	font: 					15px/1em 'Droid Sans', sans-serif;
+	font-weight: 			bold;
+	text-shadow: 			rgba(255,255,255,.5) 0 1px 0;
+
+}
+
+
+.xbt{
+    height: 30px;
+    width: 200px;
+    border: 5px;
+    border-color: #072239;
+    border:0;
+    border-radius: 5px;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+
+.a_demo_two::before {
+	background-color:#072239;
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding-left:2px;
+	padding-right:2px;
+	padding-bottom:4px;
+	left:-2px;
+	top:5px;
+	z-index:-1;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 0px #fff;
+	-moz-box-shadow: 0px 1px 0px #fff;
+	-o-box-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 0px #fff;
+}
+
+.a_demo_two:active {
+	color:#156785;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+	background:rgb(44,160,202);
+	-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	-moz-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	-o-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	top:7px;
+}
+
+
+.a_demo_two:active::before {
+	top:-2px;
+}
+
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #fff;
+	border: none;
+	}	
+a img {	
+	border: none;
+	}
+
+p.notes {	
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #999;
+	text-align: center;
+	}
+p.notes a {	
+	font-weight: bold;
+	color: #777;
+	border-bottom: 1px solid #ccc;
+	-webkit-transition: color .2s ease;
+	-moz-transition: color .2s ease;
+	-o-transition: color .2s ease;
+	transition: color .2s ease;
+	}
+p.notes a:hover {	
+	color: #555;
+	}
+p.notes span {	
+	margin: 0 4px;
+	color: #ccc;
+	}
+#stamp {	
+	display: block;
+	margin: 20px 0;
+	border: none;
+	-webkit-transition: opacity .2s ease;
+	-moz-transition: opacity .2s ease;
+	-o-transition: opacity .2s ease;
+	transition: opacity .2s ease;
+	}
+#stamp:hover {	
+	opacity: .7;
+	}
+
+/* button styles */
+
+.btn {		
+	display: inline-block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	-moz-box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	box-shadow:
+		0 8px 0 #1a74a1,
+		0 15px 20px rgba(0,0,0,.35);
+	-webkit-transition: -webkit-box-shadow .2s ease-in-out;
+	-moz-transition: -moz-box-shadow .2s ease-in-out;
+	-o-transition: -o-box-shadow .2s ease-in-out;
+	transition: box-shadow .2s ease-in-out;
+	}
+.btn span {	
+	display: inline-block;
+	padding: 10px  20px;
+	font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(19,65,88,.8);
+	background: #3194c6;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+	background: -moz-linear-gradient(#3194c6, #5bacd6);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	-moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,.15);
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	-moz-transition: -moz-transform .2s ease-in-out;
+	-o-transition: -o-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+	}
+.btn:active {	
+	-webkit-box-shadow: 
+		0 8px 0 #1a74a1,
+		0 12px 10px rgba(0,0,0,.3);
+	-moz-box-shadow: 
+		0 8px 0 #1a74a1,
+		0 12px 10px rgba(0,0,0,.3);
+	box-shadow: 
+		0 8px 0 #1a74a1,
+		0 12px 10px rgba(0,0,0,.3);
+	}
+.btn:active span {	
+	-webkit-transform: translate(0, 4px);
+	-moz-transform: translate(0, 4px);
+	-o-transform: translate(0, 4px);
+	transform: translate(0, 4px);
+	}
+        
